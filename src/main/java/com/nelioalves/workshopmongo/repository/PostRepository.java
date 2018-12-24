@@ -10,6 +10,6 @@ import com.nelioalves.workshopmongo.domain.User;
 public interface PostRepository extends MongoRepository<Post, String>{
 
 
-
+	User findOne(String id);
 	
 }
